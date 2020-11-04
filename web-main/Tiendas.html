@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- archivos css bootstrap 4 -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" text="text/css" rel="stylesheet">
+		<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+
+
+	<title>BOOTSTRAP TO-GO</title>
+
+	<style type="text/css">
+		body{
+			background: darkorange;
+		}
+		.card > *{
+			background-color: #f54b2a;
+		}
+		.bg-primary {
+            background-color: #ffc107!important;
+        }
+        footer{
+        	background: black;
+          margin-top: 3rem;
+        }
+        header{
+          margin-bottom: 3rem;
+        }
+
+	</style>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  <a class="navbar-brand text-capitalize text-dark" href="Inicio.html" style="font-family: jonesy; font-size: 3rem">Gorditas To-Go</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active" style="font-family: garamond; font-size: 2rem">
+        <a class="nav-link text-capitalize text-dark" href="Inicio.html">inicio<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item" style="font-family: garamond; font-size: 2rem">
+        <a class="nav-link text-capitalize text-dark" href="Tiendas.html">tiendas</a>
+      </li>
+      <!--<li class="nav-item" style="font-family: garamond; font-size: 2rem">
+        <a class="nav-link text-capitalize text-dark" href="#">instalaciones</a>
+      </li>-->
+      <li class="nav-item" style="font-family: garamond; font-size: 2rem">
+        <a class="nav-link text-capitalize text-dark" href="Nosotros.html">nosotros</a>
+      </li>
+
+    </ul>
+<!--aqui debe de ir una seccion de buscar
+ <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+-->
+<ul class="nav navbar-nav navbar-right" >
+			 <li><a class="col-xs-12" style="color:#FF4500" href="regis.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+			 <li><a class="col-xs-12" style="color:#FF4500" href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+		 </ul>
+
+  </div>
+</nav>
+
+<header class="text-center text-capitalize" style="font-family:Brush Script MT; font-size: 10rem">tiendas disponibles</header>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12 col-md-3">
+		    <div class="card p-2 m-2 " style="width: 250px; height: 500px">
+                <img class="card-img-top" src="img/3.png" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title text-center text-uppercase bg-primary text-light">gorditas jovita</h4>
+                  <ul class="card-text text-left text-light text-capitalize">
+                    <li>Dirección: 16 de Sempiembre 10 Int 5, Jardines del Marquéz.</li>
+                    <li>Horario: Lunes a Sabado de 7:00 a 13:30 hrs.</li>
+                    <li>entrega a domicilio: si.</li>
+                   </ul>
+                  <!--<button type="button" class="btn btn-warning text-capitalize">ver mas</button> -->
+                  <!--<a href="https://goo.gl/maps/AwBVEXXvPnN7mP919" class="btn btn-danger btn-lg active " style="margin-bottom: 10px; margin-left: 30px" role="button" aria-pressed="true">ver en el mapa</a>-->
+                  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+
+  <div class="btn-group" role="group">
+    <button id="btnGroupDrop1" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      ver mas
+    </button>
+    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+      <a class="dropdown-item" href="https://goo.gl/maps/AwBVEXXvPnN7mP919">ver ubicacion</a>
+      <a class="dropdown-item" href="menujovita.html">ver menu</a>
+    </div>
+  </div>
+</div>
+                </div>
+              </div>
+		</div>
+<!--*********************************************************-->
+		<div class="col-sm-12 col-md-3">
+			<div class="card p-2 m-2" style="width: 250px; height: 500px">
+                <img class="card-img-top" src="img/1.png" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title text-center text-uppercase bg-primary text-light">gorditas rocio</h4>
+                  <ul class="card-text text-left text-light text-capitalize">
+                  	 <li>Dirección: Coronel Isidro Treviño 45, Zona Centro.</li>
+                     <li>Horario: Lunes a Sabado de 8:00 a 13:00 hrs.</li>
+                     <li>entrega a domicilio: no</li>
+                   </ul>
+                  <!--<button type="button" class="btn btn-warning text-capitalize">ver mas</button> -->
+                 <!--<a href="https://goo.gl/maps/HuvbeFPG8WcTmAnn8" class="btn btn-danger btn-lg active " style="margin-bottom: 10px; margin-left: 30px" role="button" aria-pressed="true">ver en el mapa</a>-->
+                 <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+
+  <div class="btn-group" role="group">
+    <button id="btnGroupDrop1" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      ver mas
+    </button>
+    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+      <a class="dropdown-item" href="https://goo.gl/maps/HuvbeFPG8WcTmAnn8">ver ubicacion</a>
+      <a class="dropdown-item" href="menurocio.html">ver menu</a>
+    </div>
+  </div>
+</div>
+
+
+                </div>
+              </div>
+		</div>
+<!--*********************************************************-->
+<!--*********************************************************-->
+		<div class="col-sm-12 col-md-3">
+			<div class="card p-2 m-2" style="width: 250px; height: 500px">
+                <img class="card-img-top" src="img/2.png" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title text-center text-uppercase bg-primary text-light">gorditas rossy</h4>
+                  <ul class="card-text text-left text-light text-capitalize">
+                  	 <li>Dirección: Bernardo Reyes 6, Jose G. Madero</li>
+                     <li>Horario: Lunes a Sabado de 7:00 a 20:00 hrs.</li>
+                     <li>entrega a domicilio: no</li>
+                    </ul>
+
+                  <!--<button type="button" class="btn btn-warning text-capitalize">ver mas</button> -->
+                  <!--<a href="https://goo.gl/maps/2DHJHmVH8cu6XKJZ9" class="btn btn-danger btn-lg active " style="margin-bottom: 10px; margin-left: 30px" role="button" aria-pressed="true">ver en el mapa</a>-->
+                  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+
+  <div class="btn-group" role="group">
+    <button id="btnGroupDrop1" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      ver mas
+    </button>
+    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+      <a class="dropdown-item" href="https://goo.gl/maps/2DHJHmVH8cu6XKJZ9">ver ubicacion</a>
+      <a class="dropdown-item" href="menurossy.html">ver menu</a>
+    </div>
+  </div>
+</div>
+
+
+                </div>
+              </div>
+		</div>
+<!--*********************************************************-->
+<!--*********************************************************-->
+		<div class="col-sm-12 col-md-3">
+			<div class="card p-2 m-2" style="width: 250px; height: 500px">
+                <img class="card-img-top" src="img/miriam.png" alt="Card image cap" height="200px">
+                <div class="card-body">
+                  <h4 class="card-title text-center text-uppercase bg-primary text-light">gorditas y almuerzos miriam</h4>
+                  <ul class="card-text text-left text-light text-capitalize">
+                  	 <li>Dirección: Avenida Francisco I. Madero, 125 (Centro)</li>
+                     <li>Horario: Lunes a Sabado de 7:00 a 20:00 hrs.</li>
+                     <li>entrega a domicilio: no</li>
+                    </ul>
+
+                  <!--<button type="button" class="btn btn-warning text-capitalize">ver mas</button> -->
+                  			 <!--<a href="https://goo.gl/maps/q1GBoHtEe2nbJ7am7" class="btn btn-danger btn-lg active " style="margin-bottom: 10px; margin-left: 20px" role="button" aria-pressed="true">ver en el mapa</a>-->
+                         <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+
+  <div class="btn-group" role="group">
+    <button id="btnGroupDrop1" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      ver mas
+    </button>
+    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+      <a class="dropdown-item" href="https://goo.gl/maps/q1GBoHtEe2nbJ7am7">ver ubicacion</a>
+      <a class="dropdown-item" href="menumiriam.html">ver menu</a>
+    </div>
+  </div>
+</div>
+
+                  		</div>
+                  	</div>
+                  </div>
+
+
+                </div>
+              </div>
+		</div>
+<!--*********************************************************-->
+	</div>
+</div>
+
+<!--<a href="https://goo.gl/maps/iHr6aecjrY7qRJsD9" class="btn btn-primary btn-lg active text-center" role="button" aria-pressed="true">ver en el mapa</a> -->
+
+
+<footer>
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-6 text-left">
+            <h6 class="text-light lead">CONTACTO:</h6>
+            <h6 class="text-light">
+            Carrera T.I.C<br>
+            Parras De La Fuente, Coahuila.<br>
+            Teléfonos: 3115988953 – 3112641818.<br>
+            </h6>
+        </div>
+
+        <div class="col-xs-12 col-md-6 text-right">
+            <h6 class="text-light lead">ENCUENTRANOS EN LAS REDES</h6>
+            <div class="redes-footer">
+              <a href="https://www.facebook.com/"><img src="iconos/face2.png" width="100" height="60"></a>
+              <a href="https://twitter.com/"><img src="iconos/tw.png" width="60" height="60"></a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="col-md-12 text-right">
+            <p class="text-light small">Oscar Fuentes,Cristian Herrera, Emanuel Estrada, Gorditas To-Go @2020.<br> Todos los derechos reservados.</p>
+        </div>
+
+    </div>
+
+    </div>
+  </div>
+</div>
+</footer>
+
+
+    <!-- archivos bootstrap javascript -->
+    <script src="js/jquery-3.5.1.min"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+//--------------------------
+//     patron de colores
+//--------------------------
+$texto:red;
+$principal:pink;
+$secundario:orange;
+
+/*------------------
+estilos de prueba
+------------------*/
+.container{
+	border: 1px solid red;
+}
+.row{
+	border: 1px solid blue;
+}
+.row>*{
+	border: 3px solid green;
+}
+.bg-primary {
+    background-color: #d8ec54!important;
+}

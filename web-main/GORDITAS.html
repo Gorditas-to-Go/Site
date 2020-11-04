@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- archivos css bootstrap 4 -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+
+	<title>BOOTSTRAP TO-GO</title>
+
+	<style type="text/css">
+		body{
+			background: darkorange;
+		}
+		.card > *{
+			background-color: #f54b2a;
+		}
+		.bg-primary {
+            background-color: #ffc107!important;
+        }
+        footer{
+        	background: black;
+        }
+
+	</style>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  <a class="navbar-brand text-capitalize text-dark" href="#">Gorditas To-Go</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link text-capitalize text-dark" href="#">inicio<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-capitalize text-dark" href="#">tiendas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-capitalize text-dark" href="#">instalaciones</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-capitalize text-dark" href="#">acerca de</a>
+      </li>     
+      <li class="nav-item">
+        <a class="nav-link text-capitalize text-dark" href="#">contacto</a>
+      </li>       
+    </ul>
+<!--aqui debe de ir una seccion de buscar 
+ <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+-->
+          <form class="form-inline my-2 my-lg-0">
+           <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control" name="email">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control" name="password">
+            </div>
+            <input type="submit" class="btn btn-success" value="Sign in" onclick="formhash(this.form, this.form.password);">
+          
+          </form>
+  </div>
+</nav>
+
+<h1 class="text-center text-capitalize display-4">tiendas disponibles</h1>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12 col-md-3">
+		    <div class="card p-2 m-2">
+                <img class="card-img-top" src="img/3.png" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title text-center text-uppercase bg-primary text-light">gorditas jovita</h4>
+                  <ul class="card-text text-left text-light text-capitalize">
+                    <li>Dirección: 16 de Sempiembre 10 Int 5, Jardines del Marquéz.</li>
+                    <li>Horario: Lunes a Sabado de 7:00 a 13:30 hrs.</li>
+                    <li>entrega a domicilio: si.</li> 
+                   </ul>                   
+                  <!--<button type="button" class="btn btn-warning text-capitalize">ver mas</button> -->
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.896507197327!2d-102.1743251856674!3d25.44172332798113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868f49524c3ac67b%3A0x613432be37cb2aa1!2sGorditas%20Jovita!5e0!3m2!1ses!2smx!4v1601868111811!5m2!1ses!2smx" width="250" height="100" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+              </div>          
+		</div>
+<!--*********************************************************-->
+		<div class="col-sm-12 col-md-3">
+			<div class="card p-2 m-2">
+                <img class="card-img-top" src="img/1.png" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title text-center text-uppercase bg-primary text-light">gorditas rocio</h4>
+                  <ul class="card-text text-left text-light text-capitalize">                  	
+                  	 <li>Dirección: Coronel Isidro Treviño 45, Zona Centro.</li>                 	
+                     <li>Horario: Lunes a Sabado de 8:00 a 13:00 hrs.</li> 
+                     <li>entrega a domicilio: no</li>                   
+                   </ul>
+                  <!--<button type="button" class="btn btn-warning text-capitalize">ver mas</button> -->
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.934752495246!2d-102.18626548566745!3d25.440444828033108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868f494a5ab9ce1d%3A0x11a68338fc7b7c92!2sGorditas%20Rocio!5e0!3m2!1ses!2smx!4v1601868324965!5m2!1ses!2smx" width="250" height="100" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+                </div>
+              </div>    
+		</div>
+<!--*********************************************************-->
+<!--*********************************************************-->
+		<div class="col-sm-12 col-md-3">
+			<div class="card p-2 m-2">
+                <img class="card-img-top" src="img/2.png" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title text-center text-uppercase bg-primary text-light">gorditas rosy</h4>
+                  <ul class="card-text text-left text-light text-capitalize">
+                  	 <li>Dirección: Bernardo Reyes 6, Jose G. Madero</li>
+                     <li>Horario: Lunes a Sabado de 7:00 a 20:00 hrs.</li>
+                     <li>entrega a domicilio: no</li>
+                    </ul>                    
+
+                  <!--<button type="button" class="btn btn-warning text-capitalize">ver mas</button> -->
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.589157498123!2d-102.18294168566716!3d25.45199552756311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868f49468147467b%3A0x50e417cf5d0324be!2sGorditas%20Rosy!5e0!3m2!1ses!2smx!4v1601869974344!5m2!1ses!2smx" width="250" height="100" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+                </div>
+              </div>    
+		</div>
+<!--*********************************************************-->
+<!--*********************************************************-->
+		<div class="col-sm-12 col-md-3">
+			<div class="card p-2 m-2">
+                <img class="card-img-top" src="img/2.png" alt="Card image cap">
+                <div class="card-body">
+                  <h4 class="card-title text-center text-uppercase bg-primary text-light">gorditas y almuerzos miriam</h4>
+                  <ul class="card-text text-left text-light text-capitalize">
+                  	 <li>Dirección: Bernardo Reyes 6, Jose G. Madero</li>
+                     <li>Horario: Lunes a Sabado de 7:00 a 20:00 hrs.</li>
+                     <li>entrega a domicilio: no</li>
+                    </ul>                    
+
+                  <!--<button type="button" class="btn btn-warning text-capitalize">ver mas</button> -->
+                  <div class="container">
+                  	<div class="row">
+                  		<div class="col-4">
+                  			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.589157498123!2d-102.18294168566716!3d25.45199552756311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868f49468147467b%3A0x50e417cf5d0324be!2sGorditas%20Rosy!5e0!3m2!1ses!2smx!4v1601869974344!5m2!1ses!2smx" width="250" height="100" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                  		</div>
+                  	</div>
+                  </div>
+
+
+                </div>
+              </div>    
+		</div>
+<!--*********************************************************-->
+	</div>
+</div>
+
+<!--<footer>
+
+	<h1 class="text-capitalize display-4">gorditas to-go</h1>
+
+</footer>-->
+<footer>
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-6 text-left">
+            <h6 class="text-light lead">CONTACTO:</h6>
+            <h6 class="text-light">
+            Carrera T.I.C<br>
+            Parras De La Fuente, Coahuila.<br>
+            Teléfonos: 3115988953 – 3112641818.<br>
+            </h6>
+        </div>
+
+        <div class="col-xs-12 col-md-6 text-right">
+            <h6 class="text-light lead">ENCUENTRANOS EN LAS REDES</h6>
+            <div class="redes-footer">
+              <a href="https://www.facebook.com/"><img src="iconos/face2.png" width="75" height="55"></a>
+              <a href="https://twitter.com/"><img src="iconos/tw.png" width="60" height="45"></a>
+            </div>
+        </div>
+    </div>
+    <div class="row"> 
+
+        <div class="col-md-12 text-right">
+            <p class="text-light small">Oscar Fuentes,Cristian Herrera, Emanuel Estrada, Gorditas To-Go @2020.<br> Todos los derechos reservados.</p>
+        </div>
+        
+    </div>
+
+    </div>
+  </div>  
+</div>
+</footer>
+
+ 
+    <!-- archivos bootstrap javascript -->
+    <script src="js/jquery-3.5.1.min"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
